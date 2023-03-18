@@ -1,2 +1,5 @@
 # Generated site data
 public/
+
+# Hugo build log file
+.hugo_build.lock
