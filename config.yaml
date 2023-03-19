@@ -2,3 +2,25 @@ baseURL: https://cyberksh.github.io/
 languageCode: en-us
 title: cyberksh
 theme: papermod
+
+params:
+  homeInfoParams:
+    Title: Hey! I'm @cyberksh 👋
+    Content: |-
+      Software Developer by day. Student by night.
+
+      Curious about the world and finding my place in it.
+
+      If you find something here, I hope it's useful for you. Enjoy your time.
+  
+  assets:
+    favicon: /assets/favicon/favicon.ico
+    favicon16x16: /assets/favicon/favicon-16x16.png
+    favicon32x32: /assets/favicon/favicon-32x32.png
+    apple_touch_icon: /assets/favicon/apple-touch-icon.png
+
+  socialIcons:
+    - name: github
+      url: https://github.com/cyberksh
+    - name: email
+      url: mailto:me@cyberksh.anonaddy.com
