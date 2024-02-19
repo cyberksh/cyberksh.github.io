@@ -1,4 +1,28 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'cyberksh'
 theme = 'papermod'
+
+[params]
+  defaultTheme = 'dark'
+
+  [params.homeInfoParams]
+    Title = "Hey! I'm @cyberksh 👋👋"
+    Content = '''
+      Software Developer by day. Student by night.
+
+      Curious about the world and finding my place in it.
+
+      If you find something here, I hope it's useful for you. Enjoy your time.
+    '''
+  
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/cyberksh'
+  [[params.socialIcons]]
+    name = 'email'
+    url = 'mailto:me@cyberksh.anonaddy.com'
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  
