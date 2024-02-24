@@ -6,3 +6,10 @@ draft = true
 
 Keyboards draft blog
 
+```mermaid
+graph LR
+  C --> D
+```
+
+blog test
+
